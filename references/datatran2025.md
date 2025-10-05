@@ -21,7 +21,7 @@
 | **municipio**              | Categórico         | Nome do município onde o acidente foi registrado.          | N/A      | 0                 |
 | **causa_acidente**         | Textual            | Descrição da causa principal do acidente.                  | N/A      | 0                 |
 | **tipo_acidente**          | Categórico         | Classificação do tipo de acidente (ex: colisão).           | N/A      | 0                 |
-| **classificacao_acidente** | Ordinal            | Gravidade do acidente (ex: Com Vítimas, Sem Vítimas).      | N/A      | 1                 |
+| **classificacao_acidente** | Categórico         | Gravidade do acidente (ex: Com Vítimas, Sem Vítimas).      | N/A      | 1                 |
 | **fase_dia**               | Ordinal            | Período do dia (ex: Pleno dia, Plena noite).               | N/A      | 0                 |
 | **sentido_via**            | Categórico         | Sentido da via (Crescente ou Decrescente).                 | N/A      | 0                 |
 | **condicao_metereologica** | Categórico         | Condições do tempo no momento do acidente.                 | N/A      | 0                 |
